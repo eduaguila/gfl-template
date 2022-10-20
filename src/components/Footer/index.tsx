@@ -16,25 +16,25 @@ function Footer() {
         textAlign={{ xs: 'center', md: 'left' }}
         justifyContent="space-between"
       >
-        <Box>
+        {/* <Box>
           <Typography variant="subtitle1">
             &copy; 2022 - Tokyo Free White React Typescript Admin Dashboard
           </Typography>
-        </Box>
+        </Box> */}
         <Typography
           sx={{
             pt: { xs: 2, md: 0 }
           }}
           variant="subtitle1"
         >
-          Crafted by{' '}
-          <Link
+          Accenture Federal Services
+          {/* <Link
             href="https://bloomui.com"
             target="_blank"
             rel="noopener noreferrer"
           >
             BloomUI.com
-          </Link>
+          </Link> */}
         </Typography>
       </Box>
     </FooterWrapper>

@@ -204,7 +204,6 @@ function AccountBalance() {
               display: { xs: 'none', md: 'inline-block' }
             }}
           >
-            <Divider absolute orientation="vertical" />
           </Box>
           <Box py={4} pr={4} flex={1}>
             <Grid container spacing={0}>

@@ -3,7 +3,7 @@ import { useTheme } from '@mui/material/styles';
 
 function PageHeader() {
   const user = {
-    name: 'Catherine Pike',
+    name: 'Station Title',
     avatar: '/static/images/avatars/1.jpg'
   };
   const theme = useTheme();
@@ -11,7 +11,7 @@ function PageHeader() {
   return (
     <Grid container alignItems="center">
       <Grid item>
-        <Avatar
+        {/* <Avatar
           sx={{
             mr: 2,
             width: theme.spacing(8),
@@ -20,11 +20,11 @@ function PageHeader() {
           variant="rounded"
           alt={user.name}
           src={user.avatar}
-        />
+        /> */}
       </Grid>
       <Grid item>
         <Typography variant="h3" component="h3" gutterBottom>
-          Welcome, {user.name}!
+          {user.name}!
         </Typography>
         <Typography variant="subtitle2">
           Today is a good day to start trading crypto assets!

@@ -201,7 +201,7 @@ function SidebarMenu() {
           component="div"
           subheader={
             <ListSubheader component="div" disableSticky>
-              Dashboards
+              Stations
             </ListSubheader>
           }
         >
@@ -213,9 +213,9 @@ function SidebarMenu() {
                   component={RouterLink}
                   onClick={closeSidebar}
                   to="/dashboards/crypto"
-                  startIcon={<BrightnessLowTwoToneIcon />}
+                  // startIcon={<BrightnessLowTwoToneIcon />}
                 >
-                  Cryptocurrency
+                  Employee Experience
                 </Button>
               </ListItem>
               <ListItem component="div">
@@ -224,9 +224,20 @@ function SidebarMenu() {
                   component={RouterLink}
                   onClick={closeSidebar}
                   to="/dashboards/messenger"
-                  startIcon={<MmsTwoToneIcon />}
+                  // startIcon={<MmsTwoToneIcon />}
                 >
-                  Messenger
+                  Hidden Workers
+                </Button>
+              </ListItem>
+              <ListItem component="div">
+                <Button
+                  disableRipple
+                  component={RouterLink}
+                  onClick={closeSidebar}
+                  to="/dashboards/messenger"
+                  // startIcon={<MmsTwoToneIcon />}
+                >
+                  Extended Reality
                 </Button>
               </ListItem>
             </List>
