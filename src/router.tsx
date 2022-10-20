@@ -22,6 +22,8 @@ const Overview = Loader(lazy(() => import('src/content/overview')));
 
 const Crypto = Loader(lazy(() => import('src/content/dashboards/Crypto')));
 
+const Employee = Loader(lazy(() => import('src/content/dashboards/EmployeeExperience')));
+
 // Applications
 
 const Messenger = Loader(
@@ -131,6 +133,10 @@ const routes: RouteObject[] = [
       {
         path: 'crypto',
         element: <Crypto />
+      },
+      {
+        path: 'employeeExperience',
+        element: <Messenger /> //how to pick what's actually rendered on the page
       },
       {
         path: 'messenger',
