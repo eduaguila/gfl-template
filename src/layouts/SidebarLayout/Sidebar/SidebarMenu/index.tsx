@@ -189,9 +189,9 @@ function SidebarMenu() {
                   component={RouterLink}
                   onClick={closeSidebar}
                   to="/overview"
-                  startIcon={<DesignServicesTwoToneIcon />}
+                  // startIcon={<DesignServicesTwoToneIcon />}
                 >
-                  Overview
+                  Government Futures Lab
                 </Button>
               </ListItem>
             </List>
@@ -201,7 +201,7 @@ function SidebarMenu() {
           component="div"
           subheader={
             <ListSubheader component="div" disableSticky>
-              Stations
+              Future Of Work
             </ListSubheader>
           }
         >
@@ -212,7 +212,7 @@ function SidebarMenu() {
                   disableRipple
                   component={RouterLink}
                   onClick={closeSidebar}
-                  to="/dashboards/crypto"
+                  to="/FutureOfWork/employeeExperience"
                   // startIcon={<BrightnessLowTwoToneIcon />}
                 >
                   Employee Experience
@@ -223,7 +223,7 @@ function SidebarMenu() {
                   disableRipple
                   component={RouterLink}
                   onClick={closeSidebar}
-                  to="/dashboards/messenger"
+                  to="/FutureOfWork/HiddenWorkers"
                   // startIcon={<MmsTwoToneIcon />}
                 >
                   Hidden Workers
@@ -234,10 +234,32 @@ function SidebarMenu() {
                   disableRipple
                   component={RouterLink}
                   onClick={closeSidebar}
-                  to="/dashboards/messenger"
+                  to="/FutureOfWork/ExtendedReality"
                   // startIcon={<MmsTwoToneIcon />}
                 >
                   Extended Reality
+                </Button>
+              </ListItem>
+              <ListItem component="div">
+                <Button
+                  disableRipple
+                  component={RouterLink}
+                  onClick={closeSidebar}
+                  to="/FutureOfWork/connectedWorkers"
+                  // startIcon={<MmsTwoToneIcon />}
+                >
+                  Connected Workers
+                </Button>
+              </ListItem>
+              <ListItem component="div">
+                <Button
+                  disableRipple
+                  component={RouterLink}
+                  onClick={closeSidebar}
+                  to="/FutureOfWork/CultureByDesign"
+                  // startIcon={<MmsTwoToneIcon />}
+                >
+                  Culture By Design
                 </Button>
               </ListItem>
             </List>

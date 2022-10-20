@@ -70,7 +70,7 @@ function AccountBalance() {
               }}
               variant="h4"
             >
-              Account Balance
+              Account Balace
             </Typography>
             <Box>
               <Typography variant="h1" gutterBottom>
