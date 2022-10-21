@@ -14,16 +14,9 @@ import {
   List,
   ListItemAvatar
 } from '@mui/material';
-import TrendingUp from '@mui/icons-material/TrendingUp';
-import Text from 'src/components/Text';
-import Chart from 'react-apexcharts';
-import type { ApexOptions } from 'apexcharts';
 
 
 function AccountBalance(props) {
-  // const theme = useTheme();
-
-
   return (
     <Card>
       <Grid spacing={0} container>

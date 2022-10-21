@@ -74,14 +74,14 @@ function Hero() {
             Material-UI components across multiple product niches for fast &
             perfect apps development processes
           </TypographyH2> */}
-          {/* <Button
+          <Button
             component={RouterLink}
-            to="/dashboards/crypto"
+            to="/FutureOfWork"
             size="large"
             variant="contained"
           >
-            Browse Live Preview
-          </Button> */}
+            Visit The Future of Work
+          </Button>
           {/* <Button
             sx={{ ml: 2 }}
             component="a"
